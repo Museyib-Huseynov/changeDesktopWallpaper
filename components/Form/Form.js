@@ -7,7 +7,7 @@ const Form = () => {
     e.preventDefault();
     const data = { desktop: e.target[0].value };
     console.log(data);
-    await fetch('https://863f-5-197-235-238.ngrok-free.app', {
+    await fetch('https://changedesktop.loca.lt', {
       headers: {
         'Content-Type': 'application/json',
       },
